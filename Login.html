@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Rockwell&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Stoke&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Radley&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Red+Rose&display=swap" rel="stylesheet" />
+  <meta name="description" content="slick Login">
+  <meta name="author" content="Webdesigntuts+">
+</head>
+<body>
+<div class="sign-in screen">
+  <div class="overlap-group">
+    <img class="rectangle-1" src="rectangle-1-2.png" />
+    <h1 class="title redrose-normal-black-96px">
+      <span class="redrose-normal-black-96px">MAGNIFIQUE</span>
+    </h1>
+  </div>
+  <div class="overlap-group1">
+    <div class="sign-in-1 redrose-normal-black-90px">
+      <span class="redrose-normal-black-90px">SIGN IN</span>
+    </div>
+    <div class="email-phone-number redrose-normal-black-30px">
+      <span class="redrose-normal-black-30px">Email / Phone Number</span>
+    </div>
+    <div class="rectangle border-1px-black"></div>
+    <div class="password redrose-normal-black-30px">
+      <span class="redrose-normal-black-30px">Password</span>
+    </div>
+    <div class="rectangle border-1px-black"></div>
+    <div class="overlap-group2">
+      <div class="submit redrose-normal-black-30px">
+        <span class="redrose-normal-black-30px">Submit</span>
+       </div>
+    </div>
+    <div class="or redrose-normal-black-30px">
+      <span class="redrose-normal-black-30px">or</span>
+    </div>
+    <div class="rectangle-62 border-1px-black"></div>
+    <div class="rectangle-62-1"></div>
+    <div class="if-you-dont-have-ac redrose-normal-black-35px">
+      <span class="redrose-normal-black-35px">If you don’t have account please Sign Up</span>
+    </div>
+  </div>
+</div>
+  
+</body>
+</html> 
+<br/><br/> 
+
+<style> 
+  @import url("https://fonts.googleapis.com/css?family=PT+Serif:400|Stoke:400|Sen:700|Radley:400|Red+Rose:400|Neuton:400");
+
+.sign-in {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  padding: 0 220px;
+  width: 1920px;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.overlap-group {
+  align-self: center;
+  height: 179px;
+  margin-right: 3px;
+  margin-top: 57px;
+  position: relative;
+  width: 647px;
+}
+
+.title {
+  -webkit-text-stroke: 1px var(--black);
+  left: -250px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 32px;
+  width: 647px;
+}
+
+.rectangle-1 {
+  height: 179px;
+  left: -179px;
+  position: absolute;
+  top: 73px;
+  width: 635px;
+}
+
+.overlap-group1 {
+  align-items: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/627f8e296bcddedcf0b48956/releases/627f8e88f4f63b2d1fbd9fd6/img/rectangle-58-2@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 68px;
+  min-height: 776px;
+  padding: 39px 89px;
+  width: 1201px;
+}
+
+.rectangle-62-1 {
+  background-color: #4267b2;
+  height: 55px;
+  margin-right: 59px;
+  margin-top: 12px;
+  width: 694px;
+}
+
+.email-phone-number {
+  letter-spacing: 0;
+  margin-top: 70px;
+  min-height: 37px;
+  margin-right: 290px;
+  min-width: 677px;
+}
+
+.overlap-group2 {
+  align-items: center;
+  background-color: #c4c4c4;
+  display: flex;
+  height: 51px;
+  margin-right: 60px;
+  margin-top: 13px;
+  min-width: 127px;
+  padding: 0 11px;
+}
+
+.submit {
+  letter-spacing: 0;
+  min-height: 37px;
+  min-width: 105px;
+}
+
+.rectangle {
+  align-items: center;
+  background-color: var(--white);
+  height: 41px;
+  width: 963px;
+}
+
+.sign-in-1 {
+  letter-spacing: 0;
+  margin-left: 1px;
+  min-height: 112px;
+  min-width: 340px;
+}
+
+.if-you-dont-have-ac {
+  letter-spacing: 0;
+  margin-right: 60px;
+  margin-top: 55px;
+  min-height: 44px;
+  min-width: 677px;
+}
+
+.or {
+  letter-spacing: 0;
+  margin-right: 59px;
+  margin-top: 5px;
+  min-height: 37px;
+  min-width: 32px;
+}
+
+.rectangle-62 {
+  background-color: var(--white);
+  height: 55px;
+  margin-right: 59px;
+  margin-top: 16px;
+  width: 694px;
+}
+
+.password {
+  letter-spacing: 0;
+  margin-top: 5px;
+  min-height: 37px;
+  margin-right: 290px;
+  min-width: 677px;
+}
+
+:root {
+  --black-4
+: rgba(0, 0, 0, 0.298);
+  --black-3
+: rgba(0, 0, 0, 0.341);
+  --black-2
+: rgba(0, 0, 0, 0.502);
+  --black
+: rgba(0, 0, 0, 1);
+  --green-waterloo
+: rgba(19, 20, 6, 0.529);
+  --lapis-lazuli
+: rgba(66, 103, 178, 1);
+  --mist-gray
+: rgba(196, 196, 196, 1);
+  --red
+: rgba(255, 0, 0, 1);
+  --white
+: rgba(255, 255, 255, 1);
+
+  --font-size-xxs
+: 15px;
+  --font-size-xs
+: 18px;
+  --font-size-s
+: 20px;
+  --font-size-m
+: 25px;
+  --font-size-l
+: 30px;
+  --font-size-xl
+: 35px;
+  --font-size-xxl
+: 45px;
+
+  --font-family-neuton
+: "Neuton";
+  --font-family-pt_serif
+: "PT Serif";
+  --font-family-radley
+: "Radley";
+  --font-family-red_rose
+: "Red Rose";
+  --font-family-rockwell-regular
+: "Rockwell-Regular";
+  --font-family-sen
+: "Sen";
+  --font-family-stoke
+: "Stoke";
+  --font-family-times_new_roman-regular
+: "Times New Roman-Regular";
+}
+
+
+
+
+    
+
+.sen-bold-black-75px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-sen
+);
+  font-size: 75px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+    
+
+.border-1px-black-2
+ {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--black-2
+);
+}
+
+    
+
+.radley-normal-black-25px-2
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-radley
+);
+  font-size: var(--font-size-m
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.redrose-normal-black-35px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-red_rose
+);
+  font-size: var(--font-size-xl
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.rockwell-regular-normal-black-18px-2
+ {
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: var(--font-size-xs
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.rockwell-regular-normal-black-50px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.rockwell-regular-normal-black-45px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: var(--font-size-xxl
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.rockwell-regular-normal-red-35px
+ {
+  color: var(--red
+);
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: var(--font-size-xl
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.timesnewroman-regular-normal-black-25px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-times_new_roman-regular
+);
+  font-size: var(--font-size-m
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.border-1px-black
+ {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--black
+);
+}
+
+    
+
+.timesnewroman-regular-normal-black-15px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-times_new_roman-regular
+);
+  font-size: var(--font-size-xxs
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.redrose-normal-green-waterloo-96px
+ {
+  color: var(--green-waterloo
+);
+  font-family: var(--font-family-red_rose
+);
+  font-size: 96px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.radley-normal-black-75px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-radley
+);
+  font-size: 75px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.redrose-normal-black-96px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-red_rose
+);
+  font-size: 96px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.radley-normal-black-25px
+ {
+  color: var(--black-2
+);
+  font-family: var(--font-family-radley
+);
+  font-size: var(--font-size-m
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.rockwell-regular-normal-red-20px
+ {
+  color: var(--red
+);
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: var(--font-size-s
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.rockwell-regular-normal-black-20px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: var(--font-size-s
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.redrose-normal-black-90px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-red_rose
+);
+  font-size: 90px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.rockwell-regular-normal-black-15px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: var(--font-size-xxs
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.rockwell-regular-normal-black-35px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: var(--font-size-xl
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.rockwell-regular-normal-black-75px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: 75px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.neuton-normal-black-80px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-neuton
+);
+  font-size: 80px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.timesnewroman-regular-normal-black-32px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-times_new_roman-regular
+);
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.neuton-normal-black-64px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-neuton
+);
+  font-size: 64px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.rockwell-regular-normal-black-60px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.rockwell-regular-normal-black-25px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: var(--font-size-m
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.radley-normal-black-30px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-radley
+);
+  font-size: var(--font-size-l
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.rockwell-regular-normal-black-14px
+ {
+  color: var(--black-4
+);
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.stoke-normal-black-20px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-stoke
+);
+  font-size: var(--font-size-s
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.timesnewroman-regular-normal-black-30px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-times_new_roman-regular
+);
+  font-size: var(--font-size-l
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.redrose-normal-black-30px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-red_rose
+);
+  font-size: var(--font-size-l
+);
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+
+.ptserif-normal-black-65px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-pt_serif
+);
+  font-size: 65px;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+
+.rockwell-regular-normal-black-96px
+ {
+  color: var(--black
+);
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: 96px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+    
+.rockwell-regular-normal-black-18px
+ {
+  color: var(--black-3
+);
+  font-family: var(--font-family-rockwell-regular
+);
+  font-size: var(--font-size-xs
+);
+  font-weight: 400;
+  font-style: normal;
+ }
+</style>
